@@ -6,7 +6,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-
+  z-index: 1;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -23,9 +23,22 @@ html, body {
 
 .pageHeader {
   height: var(--header-footer-size);
-  background-color: #efefef;
-  text-align: center;
+  text-align: right;
+  font-family: helvetica;
+  color: #eee;
 }
+
+.pageHeader a {
+  margin: 15px 0 15px 15px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  font-family: Nobel;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+}
+
 
 .pageFooter {
   height: var(--header-footer-size);

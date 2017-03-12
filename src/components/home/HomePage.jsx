@@ -8,16 +8,13 @@ export default class HomePage extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
         <br />
-        <div class="image-defibulator">
-          <ul class="slides-container">
-          </ul>
-        </div>
+        <div className={ styles.sliding_image_container} >
 
-        <img
-          className={ styles.fixedImageHeight }
-          src={ 'http://i.imgur.com/kVLyJ9c.jpg' }
-          alt="boohoo" />
-        <p>{ `That's how I feel about webpack...` }</p>
+          <img
+            className={ styles.sliding_image }
+            src={ 'https://i.redd.it/xri20yvotbiy.jpg' }
+            alt="Nice image" />
+        </div>
       </div>
     );
   }
