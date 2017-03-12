@@ -23,7 +23,7 @@ class App extends Component {
         <LoadingBar className={ styles.loadingBar } />
         <Header />
         { this.props.children }
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

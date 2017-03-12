@@ -1,0 +1,29 @@
+@keyframes scale {
+  from {
+    transform: translate(50%, -28%);
+  };
+  to {
+    transform: translate(0, 0);
+  };
+}
+
+.sliding_image_container {
+  max-width: 100%;
+  max-height: 30vw;
+  height: 1000px;
+  position:relative;
+  overflow:hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+}
+
+.sliding_image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  animation-name: scale;
+  animation-duration: 45s;
+  animation-timing-function: ease-out;
+  z-index: -1;
+  width: 200%;
+}

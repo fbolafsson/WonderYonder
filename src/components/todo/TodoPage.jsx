@@ -2,10 +2,11 @@ import React, { Component, PropTypes } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import TodoList from './TodoList';
+import SlidingImage from 'components/common/slidingImage';
 import * as todoActions from 'actions/todoActions';
 
 import defaultStyles from 'global.css';
+import styles from './Todo.css';
 
 // This component is exported so that it can be tested with jest/enzyme
 export class TodoPage extends Component {
@@ -57,16 +58,18 @@ export class TodoPage extends Component {
   render() {
     return (
       <div className={ defaultStyles.pageContent }>
-        <h1>{ this.state.headerString }</h1>
-        <p>{ 'A list of stuff to be done' }</p>
-        <br />
-        <input
-          type="text"
-          placeholder="Add todo"
-          onKeyDown={ this.onSubmit } />
-        <TodoList
-          todos={ this.props.todos }
-          toggle={ this.toggleTodo } />
+        <div className={defaultStyles.pageSegment} >
+          <h1>{ this.state.headerString }</h1>
+          <p>{ 'A list of stuff to be done' }</p>
+          <br />
+          <input
+            type="text"
+            placeholder="Add todo"
+            onKeyDown={ this.onSubmit } />
+        </div>
+        <div className={ defaultStyles.ImageSegment }>
+          <SlidingImage/>
+        </div>
       </div>
     );
   }
