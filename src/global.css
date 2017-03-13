@@ -6,8 +6,9 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  z-index: 1;
+  z-index: 0;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #eee;
 }
 
 .containerFill {
@@ -16,18 +17,18 @@ html, body {
 }
 
 .pageContent {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 
 .pageTitle {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-right: 30px;
   height: var(--header-footer-size);
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
   color: #333;
 }
 
@@ -77,23 +78,120 @@ html, body {
   text-align: center;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  };
+  to {
+    opacity: 1;
+  };
+}
+
+@keyframes slideInNavigation {
+  from {
+    width: 0%;
+  };
+  to {
+    width: 13%;
+  };
+}
+
+@keyframes slideInPage {
+  from {
+    width: 0%;
+    padding-right: 0%;
+  };
+  to {
+    width: 28%;
+    padding-right: 2%;
+  };
+}
+
+@keyframes slideOut {
+  from {
+    width: 88%;
+    padding-left: 0%;
+  };
+  to {
+    width: 48%;
+    padding-left: 2%;
+  };
+}
+
+.slideInNavigation {
+  animation-name: slideInNavigation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+
+.slideInPage {
+  animation-name: slideInPage;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+
+.slideOut {
+  animation-name: slideOut;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+
+.navigationSegment {
+  padding-right: 0;
+  width: 13%;
+  float: left;
+  text-align: left;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+}
+
+.navigationSegment ul {
+  margin-top: 0;
+  padding: 0;
+}
+
+.navigationSegment li {
+  list-style-type: none;
+}
+
+.active a {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.navigationSegment a {
+  color: #888;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.navigationSegment a:hover {
+  color: #000;
+}
+
 .pageSegment {
   padding-right: 2%;
-  width: 38%;
+  width: 28%;
   float: left;
   text-align: left;
 }
 
 .pageSegment p {
   color: #888;
+  margin-top: 0;
   font-size: 17px;
   line-height: 30px;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  z-index: 1;
 }
 
 .imageSegment {
   padding-left: 2%;
-  width: 58%;
+  width: 48%;
   float: left;
+  z-index: 2;
 }
 
 .pageContent {

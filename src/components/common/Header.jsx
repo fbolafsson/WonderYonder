@@ -8,11 +8,11 @@ export default class Header extends PureComponent {
     return (
         <nav className={ styles.pageHeader }>
           <IndexLink to="/" activeClassName="active" ><img className={ styles.logo } src={require('./Logo.png')} ></img></IndexLink>
-          <IndexLink to="/" activeClassName="active" >{ 'Home' }</IndexLink>
+          <IndexLink to="/" activeClassName="active" >{ 'The Island' }</IndexLink>
           { " | " }
-          <Link to="/todo-list" activeClassName="active" >{ 'Ion defibulator' }</Link>
+          <Link to="/experience" activeClassName="active" >{ 'The Experience' }</Link>
           { " | " }
-          <Link to="/about" activeClassName="active" >{ 'About' }</Link>
+          <Link to="/about" activeClassName="active" >{ 'About Us' }</Link>
         </nav>
     );
   }
