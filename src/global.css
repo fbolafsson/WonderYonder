@@ -38,7 +38,7 @@ html, body {
   margin-right: 30px;
   height: var(--header-footer-size);
   text-align: right;
-  font-size: 30px;
+  font-size: 20px;
   color: #ddd;
 }
 
@@ -136,13 +136,20 @@ html, body {
   animation-timing-function: ease-out;
 }
 
+.pageSegment p {
+  padding-left: 4px;
+}
+
 .navigationSegment {
   padding-right: 0;
   width: 13%;
   float: left;
   text-align: left;
+}
+
+.fadeInNavigation {
   animation-name: fadeIn;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-timing-function: ease-in;
 }
 
@@ -182,9 +189,20 @@ html, body {
   font-size: 17px;
   line-height: 30px;
   animation-name: fadeIn;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-timing-function: ease-in;
   z-index: 1;
+}
+
+.pageSegment a {
+  color: #888;
+  border-bottom: 1px solid #DCDCDC;
+  text-decoration: none;
+}
+
+.pageSegment a:hover {
+  color: #333;
+  border-bottom: none;
 }
 
 .imageSegment {

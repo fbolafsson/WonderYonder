@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, PropTypes  } from 'react';
 import { Link, IndexLink } from 'react-router';
 
 import styles from 'global.css';

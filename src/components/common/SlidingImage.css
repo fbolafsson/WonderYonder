@@ -1,6 +1,6 @@
 @keyframes translate {
   from {
-    transform: translate(50%, -28%);
+    transform: translate(28%, -28%);
   };
   to {
     transform: translate(0, 0);
@@ -25,5 +25,5 @@
   animation-duration: 45s;
   animation-timing-function: ease-in-out;
   z-index: 1;
-  width: 200%;
+  width: 150%;
 }
