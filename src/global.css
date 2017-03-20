@@ -208,6 +208,7 @@ html, body {
 .imageSegment {
   padding-left: 2%;
   width: 48%;
+  max-height: 30vw;
   float: left;
   z-index: 2;
 }

@@ -1,0 +1,10 @@
+.homeContainer {
+  max-height: 60vh;
+}
+
+.homeContainer img {
+  top: -20vw;
+  min-width: 1200px;
+  max-width: 2400px;
+
+}
