@@ -12,14 +12,18 @@ button:hover {
   border: none;
   cursor: pointer;
   background-color: rgba(0,0,0,0);
-  font-family: helvetica;
   margin: 5px 5px 5px 5px;
   line-height: 20px;
-  font-family: helvetica;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
   font-size: 20px;
+  font-family: inherit;
+  font-weight: 100;
+}
+
+.dropbtn:focus {
+  outline:0;
 }
 
 .dropbtn button {
@@ -65,6 +69,5 @@ button:hover {
 .dropbtn button:hover {
   height: var(--header-footer-size);
   text-align: right;
-  font-family: helvetica;
   color: #444;
 }

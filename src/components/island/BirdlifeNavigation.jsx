@@ -24,29 +24,34 @@ export default class IslandNavigation extends PureComponent {
             <Link to="/island?source=local" activeClassName={defaultStyles.active}>{ 'The Island' }</Link>
           </li>
           <li>
+            <Link to="/island/wildlife?source=local" activeClassName={defaultStyles.active}>{ 'Wildlife' }</Link>
+          </li>
+          <li>
             <Link to="/island/birdlife?source=local" activeClassName={defaultStyles.active}>{ 'Birdlife' }</Link>
           </li>
-          <li>
-            <Link to="/island/birdlife/blackguillemot?source=local" activeClassName={defaultStyles.active}>{ 'Black Guillemot' }</Link>
-          </li>
-          <li>
-            <Link to="/island/birdlife/gannet?source=local" activeClassName={defaultStyles.active}>{ 'Gannet' }</Link>
-          </li>
-          <li>
-            <Link to="/island/birdlife/greatskua?source=local" activeClassName={defaultStyles.active}>{ 'Great Skua' }</Link>
-          </li>
-          <li>
-            <Link to="/island/birdlife/guillemot?source=local" activeClassName={defaultStyles.active}>{ 'Guillemot' }</Link>
-          </li>
-          <li>
-            <Link to="/island/birdlife/northernfulmar?source=local" activeClassName={defaultStyles.active}>{ 'Northern Fulmar' }</Link>
-          </li>
-          <li>
-            <Link to="/island/birdlife/puffin?source=local" activeClassName={defaultStyles.active}>{ 'Puffin' }</Link>
-          </li>
-          <li>
-            <Link to="/island/birdlife/razorbill?source=local" activeClassName={defaultStyles.active}>{ 'Razorbill' }</Link>
-          </li>
+          <span className={defaultStyles.birdlifeNavigationItems}>
+            <li>
+              <Link to="/island/birdlife/blackguillemot?source=local" activeClassName={defaultStyles.active}>{ 'Black Guillemot' }</Link>
+            </li>
+            <li>
+              <Link to="/island/birdlife/gannet?source=local" activeClassName={defaultStyles.active}>{ 'Gannet' }</Link>
+            </li>
+            <li>
+              <Link to="/island/birdlife/greatskua?source=local" activeClassName={defaultStyles.active}>{ 'Great Skua' }</Link>
+            </li>
+            <li>
+              <Link to="/island/birdlife/guillemot?source=local" activeClassName={defaultStyles.active}>{ 'Guillemot' }</Link>
+            </li>
+            <li>
+              <Link to="/island/birdlife/northernfulmar?source=local" activeClassName={defaultStyles.active}>{ 'Northern Fulmar' }</Link>
+            </li>
+            <li>
+              <Link to="/island/birdlife/puffin?source=local" activeClassName={defaultStyles.active}>{ 'Puffin' }</Link>
+            </li>
+            <li>
+              <Link to="/island/birdlife/razorbill?source=local" activeClassName={defaultStyles.active}>{ 'Razorbill' }</Link>
+            </li>
+          </span>
         </ul>
       </nav>
     );
