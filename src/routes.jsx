@@ -28,7 +28,7 @@ export default (
     <Route path="island/birdlife" component={ Birdlife } />
     <Route path="island/birdlife/blackguillemot" component={ BlackGuillemot } />
     <Route path="island/birdlife/gannet" component={ Gannet } />
-    <Route path="island/birdlif/greatskua" component={ GreatSkua } />
+    <Route path="island/birdlife/greatskua" component={ GreatSkua } />
     <Route path="island/birdlife/guillemot" component={ Guillemot } />
     <Route path="island/birdlife/northernfulmar" component={ NorthernFulmar } />
     <Route path="island/birdlife/puffin" component={ Puffin } />

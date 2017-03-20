@@ -18,7 +18,7 @@ export default class TodoPage extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Experience' }</header>
         <ExperienceNavigation fadeIn={!isLocal}/>
         <div className={defaultStyles.pageSegment }>
-          <p>{ 'Bitch better recognize cardinal grammeters. Such an instrument comprised of Dodge gears and bearings, Reliance Electric motors, Allen-Bradley controls, and all monitored by Wonder Yonder is Wonder Yonder’s "Ion Defibulator".' }</p>
+          <p>{ 'Peeps better recognize cardinal grammeters. Such an instrument comprised of Dodge gears and bearings, Reliance Electric motors, Allen-Bradley controls, and all monitored by Wonder Yonder is Wonder Yonder’s "Ion Defibulator".' }</p>
         </div>
         <div className={ defaultStyles.imageSegment}>
           <SlidingImage url={'https://i.imgur.com/gmfnSww.jpg'}/>

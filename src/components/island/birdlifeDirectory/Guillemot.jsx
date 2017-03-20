@@ -21,7 +21,7 @@ export default class Guillemot extends PureComponent {
           <p>{ 'The flutter of wings, singing and calling make the sound world in Elliðaey which is a nature conservation island because of it´s rich birdlife.  It is the main nesting area for leach’s petrels and storm petrels in Iceland, which breed there in the thousands along with other bird species.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment + (isLocal ? '' : (' ' + defaultStyles.slideOut)) }>
-          <SlidingImage url={'https://i.redd.it/xri20yvotbiy.jpg'}/>
+          <SlidingImage url={'http://i.imgur.com/8nXbUC5.png'}/>
         </div>
       </div>
     );
