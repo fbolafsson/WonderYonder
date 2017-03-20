@@ -19,7 +19,9 @@ export default class IslandPage extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Experience' }</header>
         <ExperienceNavigation fadeIn={!isLocal}/>
         <div className={defaultStyles.pageSegment  + (isLocal ? '' : (' ' + defaultStyles.slideInPage))}>
-          <p>{ 'Here at Wonder Yonder’s world headquarters, research has been proceeding to develop a line of automation products that establishes new standards for quality, technological leadership, and operating excellence. With customer success as our primary focus, work has been proceeding on the crudely conceived idea of an instrument that would not only provide inverse reactive current, for use in unilateral phase detractors, but would also be capable of automatically synchronizing cardinal grammeters. Such an instrument comprised of Dodge gears and bearings, Reliance Electric motors, Allen-Bradley controls, and all monitored by Wonder Yonder is Wonder Yonder’s "Ion Defibulator".' }</p>
+          <p>{ 'Journey to the centre of the earth, where you resonate with the heartbeat of Mother Earth.  Where you feel as if your daily issues are left out at sea. Climbing the cliffs, step by step into the arms of Mother Nature. Where the home of “millions” of birds await you.' }</p>
+          <p>{ 'Whether it be a smaller group or intimate few each journey is tailormade and totally unique. Only a few trips are available each summer.' }</p>
+          <p>{ 'For your dream journey please contact us.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment + (isLocal ? '' : (' ' + defaultStyles.slideOut)) }>
           <SlidingImage url={'http://i.imgur.com/49ucq8O.jpg'}/>
