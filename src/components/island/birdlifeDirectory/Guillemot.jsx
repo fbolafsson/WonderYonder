@@ -2,7 +2,7 @@ import React, { PureComponent, PropTypes } from 'react';
 import { Link, IndexLink } from 'react-router';
 
 import SlidingImage from 'components/common/slidingImage';
-import IslandNavigation from 'components/island/IslandNavigation'
+import BirdlifeNavigation from 'components/island/BirdlifeNavigation'
 
 import defaultStyles from 'global.css';
 
@@ -16,7 +16,7 @@ export default class Guillemot extends PureComponent {
       <div className={ defaultStyles.pageContent }>
 
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
-        <IslandNavigation fadeIn={!isLocal}/>
+        <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={defaultStyles.pageSegment  + (isLocal ? '' : (' ' + defaultStyles.slideInPage))}>
           <p>{ 'The flutter of wings, singing and calling make the sound world in Elliðaey which is a nature conservation island because of it´s rich birdlife.  It is the main nesting area for leach’s petrels and storm petrels in Iceland, which breed there in the thousands along with other bird species.' }</p>
         </div>
