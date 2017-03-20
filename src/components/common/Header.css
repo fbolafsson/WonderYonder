@@ -1,0 +1,70 @@
+@import "variables.css";
+
+button {
+  color: #bbb;
+}
+
+button:hover {
+  color: #444;
+}
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0);
+  font-family: helvetica;
+  margin: 5px 5px 5px 5px;
+  line-height: 20px;
+  font-family: helvetica;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dropbtn button {
+  color: #bbb;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+    z-index: 3;
+}
+
+.dropdownContent a {
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdownContent a:hover {
+  text-align: left;
+  color: black;
+}
+
+.dropdown:hover {
+    color: black;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropbtn button:hover {
+  height: var(--header-footer-size);
+  text-align: right;
+  font-family: helvetica;
+  color: #444;
+}
