@@ -30,7 +30,7 @@ export default {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Wonder Yonder',
+      title: 'Elliðaey',
       template: path.join(__dirname, 'src/index.ejs'),
       filename: 'index.html',
       inject: false,
