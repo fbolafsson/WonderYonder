@@ -21,7 +21,7 @@ export default class Header extends PureComponent {
           <div className={ styles.headerLinks }>
 
             <div className={headerStyles.dropdown}>
-              <button onClick={() => redirect('./island')} className={headerStyles.dropbtn}>The Island</button>
+              <button onClick={() => redirect('/island')} className={headerStyles.dropbtn}>The Island</button>
               <div className={headerStyles.dropdownContent}>
                 <IndexLink to="/island" activeClassName="active" >{ 'The Island' }</IndexLink>
                 <Link to="/island/wildlife" activeClassName="active" >{ 'Wildlife' }</Link>
