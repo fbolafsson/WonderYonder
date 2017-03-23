@@ -14,7 +14,7 @@ export default class TodoPage extends PureComponent {
   render() {
     var className = '';
     if(this.props.fadeIn == true){
-      className = defaultStyles.navigationSegment + ' ' + defaultStyles.slideInNavigation + ' ' + defaultStyles.fadeInNavigation;
+      className = defaultStyles.navigationSegment + ' ' + defaultStyles.fadeInNavigation;
     } else {
       className = defaultStyles.navigationSegment;
     }

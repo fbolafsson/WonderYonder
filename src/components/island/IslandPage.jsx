@@ -10,18 +10,17 @@ import defaultStyles from 'global.css';
 export default class IslandPage extends PureComponent {
 
   render() {
-    var isLocal = this.props.location.query.source === "local"
-
+    var isLocal = this.props.location.query.source === "local";
     return (
       <div className={ defaultStyles.pageContent }>
 
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <IslandNavigation fadeIn={!isLocal}/>
-        <div className={defaultStyles.pageSegment  + (isLocal ? '' : (' ' + defaultStyles.slideInPage))}>
+        <div className={defaultStyles.pageSegment }>
           <p>{ 'Valuable information about the island.' }</p>
         </div>
-        <div className={ defaultStyles.imageSegment + (isLocal ? '' : (' ' + defaultStyles.slideOut)) }>
-          <SlidingImage url={'http://i.imgur.com/49ucq8O.jpg'}/>
+        <div className={ defaultStyles.imageSegment }>
+          <img src="http://i.imgur.com/49ucq8O.jpg" />
         </div>
       </div>
     );

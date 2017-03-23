@@ -18,11 +18,11 @@ export default class IslandPage extends PureComponent {
 
         <header className={ defaultStyles.pageTitle }>{ 'The Experience' }</header>
         <ExperienceNavigation fadeIn={!isLocal}/>
-        <div className={defaultStyles.pageSegment  + (isLocal ? '' : (' ' + defaultStyles.slideInPage))}>
+        <div className={defaultStyles.pageSegment }>
           <p>{ 'Here at Wonder Yonder’s world headquarters, research has been proceeding to develop a line of automation products that establishes new standards for quality, technological leadership, and operating excellence. With customer success as our primary focus, work has been proceeding on the crudely conceived idea of an instrument that would not only provide inverse reactive current, for use in unilateral phase detractors, but would also be capable of automatically synchronizing cardinal grammeters. Such an instrument comprised of Dodge gears and bearings, Reliance Electric motors, Allen-Bradley controls, and all monitored by Wonder Yonder is Wonder Yonder’s "Ion Defibulator".' }</p>
         </div>
-        <div className={ defaultStyles.imageSegment + (isLocal ? '' : (' ' + defaultStyles.slideOut)) }>
-          <SlidingImage url={'http://i.imgur.com/49ucq8O.jpg'}/>
+        <div className={ defaultStyles.imageSegment }>
+          <img src="http://i.imgur.com/49ucq8O.jpg" />
         </div>
       </div>
     );

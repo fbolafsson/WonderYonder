@@ -40,9 +40,10 @@ button:hover {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
     z-index: 3;
+    right: 0;
 }
 
 .dropdownContent a {
@@ -50,11 +51,11 @@ button:hover {
     text-decoration: none;
     font-size: 16px;
     display: block;
-    text-align: left;
+    text-align: right;
 }
 
 .dropdownContent a:hover {
-  text-align: left;
+
   color: black;
 }
 
@@ -68,6 +69,5 @@ button:hover {
 
 .dropbtn button:hover {
   height: var(--header-footer-size);
-  text-align: right;
   color: #444;
 }

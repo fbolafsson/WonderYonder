@@ -206,6 +206,16 @@ html, body {
   max-height: 30vw;
   float: left;
   z-index: 2;
+  overflow: hidden;
+}
+
+.imageSegment img {
+  top: 50%;
+  position: relative;
+  width: 100%;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
 }
 
 .pageContent {

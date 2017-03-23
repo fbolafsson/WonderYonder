@@ -13,7 +13,7 @@ export default class AboutPage extends PureComponent {
       <div className={ defaultStyles.pageContent }>
         <header className={ defaultStyles.pageTitle }>{ 'Contact us' }</header>
         <AboutNavigation fadeIn={!isLocal}/>
-        <div className={defaultStyles.pageSegment  + (isLocal ? '' : (' ' + defaultStyles.slideInPage))}>
+        <div className={ defaultStyles.pageSegment }>
           <p>{ "Don't contact us, we'll contact you! We are very proficient in contacting and connecting people. We search high and low for the perfect contact." }</p>
           <br/>
           <p>
@@ -30,8 +30,8 @@ export default class AboutPage extends PureComponent {
             E-mail: <a href="mailto:blank@thisshouldnotbereal.mars" target="_blank">{"no@email.here"}</a>
           </p>
         </div>
-        <div className={ defaultStyles.imageSegment + (isLocal ? '' : (' ' + defaultStyles.slideOut)) }>
-          <SlidingImage url={'https://i.redd.it/61mg2bkj5wky.jpg'}/>
+        <div className={ defaultStyles.imageSegment }>
+          <img src="https://i.redd.it/61mg2bkj5wky.jpg" />
         </div>
       </div>
     );
