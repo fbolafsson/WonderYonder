@@ -17,7 +17,7 @@ export default class IslandPage extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <IslandNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>{ 'Valuable information about the island.' }</p>
+          <p>{ 'The nature in all it´s essence is on the Island and around it. The sea brings us such beautiful gifts as the whales, killer whales, blue whales and seals.  Sometimes they grant us the pleasure of appearing.  What is on the Island is more tangible but at the same it is sacred and untouchable.  The sheep stay on the island for the summer.  The birds start arriving as soon as February and some stay even until december.  Then the winter stillness takes over and the only thing moving is the wind.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="https://i.redd.it/xri20yvotbiy.jpg" />

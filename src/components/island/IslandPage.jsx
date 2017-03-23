@@ -17,7 +17,7 @@ export default class IslandPage extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <IslandNavigation fadeIn={!isLocal}/>
         <div className={defaultStyles.pageSegment }>
-          <p>{ 'Valuable information about the island.' }</p>
+          <p>{ 'The unique and beautiful island Elliðaey rises from the sea, with it´s steep cliffs and grassy hills. A nature conservation island situated in the south of Iceland in an archipelago called  Westman Islands.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/49ucq8O.jpg" />
