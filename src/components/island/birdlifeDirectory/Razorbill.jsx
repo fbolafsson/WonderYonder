@@ -17,7 +17,8 @@ export default class Razorbill extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>{ 'The flutter of wings, singing and calling make the sound world in Elliðaey which is a nature conservation island because of it´s rich birdlife.  It is the main nesting area for leach’s petrels and storm petrels in Iceland, which breed there in the thousands along with other bird species.' }</p>
+          <h4>{ 'Razorbill (Álka)' }</h4>
+          <p>{ 'Razorbill is a colonial seabird that comes to land only to breed.  This bird chooses one partner for life, females lay one egg per year.  Razorbills nest along coastal cliffs in enclosed or slightly exposed crevices. The parents spend equal amounts of time incubating. Once the chick has hatched, the parents take turns foraging for their young and sometimes fly long distances before finding prey.  I have seen then snatch a fish from his cousin during flight!' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/Wyp8sR5.jpg" />

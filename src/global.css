@@ -178,11 +178,12 @@ html, body {
   text-align: left;
 }
 
-.pageSegment p {
+.pageSegment p, .pageSegment h4 {
   color: #888;
   margin-top: 0;
   font-size: 17px;
   line-height: 30px;
+  padding-left: 4px;
   animation-name: fadeIn;
   animation-duration: 1s;
   animation-timing-function: ease-in;
@@ -219,7 +220,7 @@ html, body {
 }
 
 .pageContent {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .pageHeader, .pageContent, .pageFooter {
@@ -242,4 +243,26 @@ html, body {
 .birdlifeNavigationItems {
   display: block;
   margin-left: 8px;
+}
+
+.homeContainer {
+  max-height: 60vh;
+}
+
+.homeContainer img {
+  top: -20vw;
+  min-width: 1200px;
+  max-width: 2400px;
+}
+
+@media only screen and (max-width: 1270px) {
+  .homeContainer img {
+    top: -10vw;
+  }
+}
+
+@media only screen and (min-width: 1670px) {
+  .homeContainer img {
+    top: -30vw;
+  }
 }

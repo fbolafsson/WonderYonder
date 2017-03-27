@@ -17,10 +17,11 @@ export default class IslandPage extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <IslandNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>{ 'The nature in all it´s essence is on the Island and around it. The sea brings us such beautiful gifts as the whales, killer whales, blue whales and seals.  Sometimes they grant us the pleasure of appearing.  What is on the Island is more tangible but at the same it is sacred and untouchable.  The sheep stay on the island for the summer.  The birds start arriving as soon as February and some stay even until december.  Then the winter stillness takes over and the only thing moving is the wind.' }</p>
+          <p>{ 'There are over 30 kinds of bird to be seen on the island and in the neighbournhood.  Most of them return in spring, as the breeding season start.  Thouse who nest use crevices among rocks or in burrows in the soil.  When they come after the winter they start getting things tidy in their home.  its said that puffins goes directly to the same hole year after year.' }</p>
+          <p>{ 'Sheeps are also on the island and are essential for the island, they eat plants that are not so welcome in the island.  Also they make roads, for us.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
-          <img src="https://i.redd.it/xri20yvotbiy.jpg" />
+          <img src="http://i.imgur.com/9UVW7R6.jpg" />
         </div>
       </div>
     );

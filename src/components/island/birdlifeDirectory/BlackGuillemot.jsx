@@ -17,7 +17,8 @@ export default class BlackGuillemot extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>{ 'The flutter of wings, singing and calling make the sound world in Elliðaey which is a nature conservation island because of it´s rich birdlife.  It is the main nesting area for leach’s petrels and storm petrels in Iceland, which breed there in the thousands along with other bird species.' }</p>
+          <h4>{ 'Black Guillemot (Teista)' }</h4>
+          <p>{ 'Beautiful bird one of my favorite, black, wite and red.  They dive for food, swimming underwater.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/Y3xfBop.jpg" />

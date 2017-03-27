@@ -17,7 +17,9 @@ export default class Gannet extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>{ 'The flutter of wings, singing and calling make the sound world in Elliðaey which is a nature conservation island because of it´s rich birdlife.  It is the main nesting area for leach’s petrels and storm petrels in Iceland, which breed there in the thousands along with other bird species.' }</p>
+
+          <h4>{ 'Gannet (Súla)' }</h4>
+          <p>{ 'Gannet is the largest seabirds in the North Atlandic, she has a maximum lifespan of 35 years.  Gannets hunt fish by diving from the height into the sea and pursuing their prey underwater.  They can dive from 30meters (98ft), achieving speeds of 100 kilometers pr hour (62 mph) as they strike the water, enabling them to catsh fish much deeper than most airborn birds.  It takes 5 years to GANNET to reach maturity.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/JxajOpk.jpg" />

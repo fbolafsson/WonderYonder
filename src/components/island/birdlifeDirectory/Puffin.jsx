@@ -17,7 +17,8 @@ export default class Puffin extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>{ 'estibulum nisi lectus, dictum et velit vel, maximus posuere turpis. Aliquam erat volutpat. Mauris venenatis nisl at purus finibus, vestibulum iaculis metus rhoncus. Maecenas quis nisi tempor, rhoncus diam vel, laoreet mi. Integer eleifend maximus urna. Praesent aliquet tincidunt odio id ultrices. Integer ipsum sapien, dapibus sit amet orci at, laoreet venenatis dui. Fusce ultricies imperdiet placerat. Pellentesque fringilla aliquam venenatis. Quisque nec leo non urna viverra vehicula.' }</p>
+          <h4>{ 'Puffin (Lundi)' }</h4>
+          <p>{ 'Most common amoung birds on Elliðaey.  More puffins live on Elliðaey than people in Manhattan.  Puffin breed in crevices among rocks or in burrows in the soil.  They feed by diving in the sea.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/3xoO4Y9.jpg" />
