@@ -250,19 +250,19 @@ html, body {
 }
 
 .homeContainer img {
-  top: -25vw;
+  top: -20vw;
   min-width: 1200px;
   max-width: 2400px;
 }
 
 @media only screen and (max-width: 1270px) {
   .homeContainer img {
-    top: -15vw;
+    top: -10vw;
   }
 }
 
 @media only screen and (min-width: 1670px) {
   .homeContainer img {
-    top: -35vw;
+    top: -30vw;
   }
 }
