@@ -15,7 +15,7 @@ export default class IslandPage extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'Birdlife' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={defaultStyles.pageSegment }>
           <p>{ 'The flutter of wings, singing and calling make the sound world in Elliðaey which is a nature conservation island because of it´s rich birdlife.  It is the main nesting area for leach’s petrels and storm petrels in Iceland, which breed there in the thousands along with other bird species.' }</p>

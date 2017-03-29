@@ -14,7 +14,7 @@ export default class Razorbill extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'Birdlife / Razorbill' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
           <h4>{ 'Razorbill (Álka)' }</h4>

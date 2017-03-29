@@ -14,7 +14,7 @@ export default class Guillemot extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'Birdlife / Guillemot' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
           <h4>{ 'Guillemot (Svartfugl)' }</h4>

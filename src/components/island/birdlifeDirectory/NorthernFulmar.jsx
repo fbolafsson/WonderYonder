@@ -14,7 +14,7 @@ export default class NorthernFulmar extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'Birdlife / Northern Fulmar' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
           <h4>{ 'Northern Fulmar (Fýll)' }</h4>

@@ -4,7 +4,6 @@ import { Route, IndexRoute } from 'react-router';
 import App from 'components/App';
 import HomePage from 'components/home/HomePage';
 import ExperiencePage from 'components/experience/ExperiencePage';
-import JourneyType from 'components/experience/JourneyType';
 import IslandPage from 'components/island/IslandPage';
 import Wildlife from 'components/island/Wildlife';
 import Birdlife from 'components/island/Birdlife';
@@ -23,7 +22,6 @@ export default (
   <Route path="/" component={ App }>
     <IndexRoute component={ HomePage } />
     <Route path="experience" component={ ExperiencePage } />
-    <Route path="experience/journey-type" component={ JourneyType } />
     <Route path="island" component={ IslandPage } />
     <Route path="island/wildlife" component={ Wildlife } />
     <Route path="island/birdlife" component={ Birdlife } />

@@ -24,7 +24,7 @@ export default class IslandPage extends PureComponent {
           <p>{ 'For your dream journey please contact us.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
-          <img src="http://i.imgur.com/49ucq8O.jpg" />
+          <img src="http://i.imgur.com/qHqoVPz.jpg" />
         </div>
       </div>
     );

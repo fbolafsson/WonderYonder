@@ -29,13 +29,14 @@ export default class Header extends PureComponent {
               </div>
             </div>
             { " | " }
+            <Link to="/experience" activeClassName="active" >{ 'The Experience' }</Link>
+            {/*
             <div className={headerStyles.dropdown}>
               <button onClick={() => redirect('/experience')} className={headerStyles.dropbtn}>The Experience</button>
               <div className={headerStyles.dropdownContent}>
-                <Link to="/experience" activeClassName="active" >{ 'The Journey' }</Link>
-                <Link to="/experience/journey-type" activeClassName="active" >{ 'Journey type' }</Link>
               </div>
             </div>
+            */}
             { " | " }
             <div className={headerStyles.dropdown}>
               <button onClick={() => redirect('/about')} className={headerStyles.dropbtn}>About</button>

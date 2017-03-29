@@ -11,7 +11,7 @@ export default class AboutPage extends PureComponent {
     var isLocal = this.props.location.query.source === "local"
     return (
       <div className={ defaultStyles.pageContent }>
-        <header className={ defaultStyles.pageTitle }>{ 'Contact us' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'About / Contact us' }</header>
         <AboutNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
           <p>{ "Don't contact us, we'll contact you! We are very proficient in contacting and connecting people. We search high and low for the perfect contact." }</p>

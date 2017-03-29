@@ -137,7 +137,7 @@ html, body {
 
 .navigationSegment {
   padding-right: 0;
-  width: 13%;
+  width: 15%;
   float: left;
   text-align: left;
 }
@@ -203,7 +203,7 @@ html, body {
 
 .imageSegment {
   padding-left: 2%;
-  width: 48%;
+  width: 53%;
   max-height: 30vw;
   float: left;
   z-index: 2;
@@ -242,7 +242,7 @@ html, body {
 
 .birdlifeNavigationItems {
   display: block;
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .homeContainer {
