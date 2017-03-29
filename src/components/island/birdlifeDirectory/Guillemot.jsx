@@ -18,7 +18,8 @@ export default class Guillemot extends PureComponent {
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
           <h4>{ 'Guillemot (Svartfugl)' }</h4>
-          <p>{ 'The flutter of wings, singing and calling make the sound world in Elliðaey which is a nature conservation island because of it´s rich birdlife.  It is the main nesting area for leach’s petrels and storm petrels in Iceland, which breed there in the thousands along with other bird species.' }</p>
+          <p>{ "Guillemots are seabirds, and they tend to congregate on the ledges of cliffs overlooking the ocean. The view is spectacular, but it's a pretty precarious place for a newly laid clutch of baby birds. Guillemots don't even build nests, and their breeding colonies are notoriously crowded." }</p>
+          <p>{ "They're shaped in such a way that when they roll, they do so not in a long, wide arc but a tight, uniform circle." }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/8nXbUC5.png" />

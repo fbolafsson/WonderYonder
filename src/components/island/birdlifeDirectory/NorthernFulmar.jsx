@@ -18,7 +18,7 @@ export default class NorthernFulmar extends PureComponent {
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
           <h4>{ 'Northern Fulmar (Fýll)' }</h4>
-          <p>{ 'The flutter of wings, singing and calling make the sound world in Elliðaey which is a nature conservation island because of it´s rich birdlife.  It is the main nesting area for leach’s petrels and storm petrels in Iceland, which breed there in the thousands along with other bird species.' }</p>
+          <p>{ "A gull-like relative of albatrosses and shearwaters, the Northern Fulmar is a bird of the northern oceans. It breeds in few dozen scattered locations off Alaska and Canada,  but is more abundant and widespread elsewhere in the northern hemisphere, especially in the northeast Atlantic." }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/3AtM0Oy.jpg" />
