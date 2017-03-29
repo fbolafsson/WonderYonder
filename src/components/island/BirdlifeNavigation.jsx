@@ -46,10 +46,13 @@ export default class IslandNavigation extends PureComponent {
               <Link to="/island/birdlife/northernfulmar?source=local" activeClassName={defaultStyles.active}>{ 'Northern Fulmar' }</Link>
             </li>
             <li>
-              <Link to="/island/birdlife/puffin?source=local" activeClassName={defaultStyles.active}>{ 'Puffin' }</Link>
+              <Link to="/island/birdlife/razorbill?source=local" activeClassName={defaultStyles.active}>{ 'Razorbill' }</Link>
             </li>
             <li>
-              <Link to="/island/birdlife/razorbill?source=local" activeClassName={defaultStyles.active}>{ 'Razorbill' }</Link>
+              <Link to="/island/birdlife/rissa?source=local" activeClassName={defaultStyles.active}>{ 'Rissa' }</Link>
+            </li>
+            <li>
+              <Link to="/island/birdlife/puffin?source=local" activeClassName={defaultStyles.active}>{ 'Puffin' }</Link>
             </li>
           </span>
         </ul>

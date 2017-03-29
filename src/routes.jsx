@@ -15,6 +15,7 @@ import Guillemot from 'components/island/birdlifeDirectory/Guillemot';
 import NorthernFulmar from 'components/island/birdlifeDirectory/NorthernFulmar';
 import Puffin from 'components/island/birdlifeDirectory/Puffin';
 import Razorbill from 'components/island/birdlifeDirectory/Razorbill';
+import Rissa from 'components/island/birdlifeDirectory/Rissa';
 import AboutPage from 'components/about/AboutPage';
 import AboutUs from 'components/about/AboutUs';
 
@@ -33,6 +34,7 @@ export default (
     <Route path="island/birdlife/northernfulmar" component={ NorthernFulmar } />
     <Route path="island/birdlife/puffin" component={ Puffin } />
     <Route path="island/birdlife/razorbill" component={ Razorbill } />
+    <Route path="island/birdlife/rissa" component={ Rissa } />
     <Route path="about" component={ AboutPage } />
     <Route path="about/contact" component={ AboutUs } />
   </Route>

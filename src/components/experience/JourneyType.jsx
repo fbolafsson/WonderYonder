@@ -21,7 +21,7 @@ export default class TodoPage extends PureComponent {
           <p>{ 'Peeps better recognize cardinal grammeters. Such an instrument comprised of Dodge gears and bearings, Reliance Electric motors, Allen-Bradley controls, and all monitored by Wonder Yonder is Wonder Yonder’s "Ion Defibulator".' }</p>
         </div>
         <div className={ defaultStyles.imageSegment}>
-          <img src="https://i.imgur.com/gmfnSww.jpg" />
+          <img src="http://i.imgur.com/RJOXOTH.jpg" />
         </div>
       </div>
     );

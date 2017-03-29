@@ -31,7 +31,7 @@ export default class AboutPage extends PureComponent {
           </p>
         </div>
         <div className={ defaultStyles.imageSegment }>
-          <img src="https://i.redd.it/61mg2bkj5wky.jpg" />
+          <img src="http://i.imgur.com/XNTDHjX.jpg" />
         </div>
       </div>
     );
