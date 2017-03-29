@@ -1,9 +1,9 @@
 @keyframes translate {
   from {
-    transform: translate(10%, -10%);
+    transform: translate(-10%, 10%);
   };
-  from {
-    transform: translate(0, 0);
+  to {
+    transform: translate(40%, 0);
   };
 }
 
@@ -26,11 +26,9 @@
 
 .sliding_image {
   position: absolute;
-  top: 0;
-  right: 0;
+  right: -20%;
   display: block;
-  animation: translate 30s ease-in-out;
-  animation-duration: 30s;
+  animation: translate 28s ease-in-out;
   /*animation-timing-function: ease-in-out;*/
   z-index: 1;
   width: 120%;
