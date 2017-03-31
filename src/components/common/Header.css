@@ -1,7 +1,7 @@
 @import "variables.css";
 
 button {
-  color: #bbb;
+  color: #6c6c6c;
 }
 
 button:hover {
@@ -27,13 +27,12 @@ button:hover {
 }
 
 .dropbtn button {
-  color: #bbb;
+  color: #6c6c6c;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-
+  position: relative;
+  display: inline-block;
 }
 
 .dropdownContent {
@@ -69,5 +68,5 @@ button:hover {
 
 .dropbtn button:hover {
   height: var(--header-footer-size);
-  color: #444;
+  color: #4c4c4c;
 }

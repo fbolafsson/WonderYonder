@@ -14,7 +14,7 @@ export default class GreatSkua extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'Birdlife / Gannet' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'Birdlife / Great Skua' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
           <h4>{ 'Great Skua (Skúmur)' }</h4>
