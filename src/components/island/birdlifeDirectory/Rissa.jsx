@@ -14,10 +14,10 @@ export default class Rissa extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'Birdlife / Rissa' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'Birds / Rissa' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <h4>{ 'Rissa (Rita)' }</h4>
+          <h4>Rissa (<em>Rissa tridactyla</em>)</h4>
           <p>{ 'Rissa is a causine of gull family.  They nest on extremely steep cliffs.  Rissa nests/hatch 2-3 eggs, and the chicks sit still in the nest until they can fly.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>

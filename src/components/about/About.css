@@ -1,0 +1,72 @@
+.altenateimagecontainer div {
+  position: relative;
+  width: 43%;
+  max-height: 30vh;
+  overflow: hidden;
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.altenateimagecontainer img.bottom {
+  display:block;
+  top: -30vw;
+  opacity: 1;
+  z-index: 1;
+  overflow: hidden;
+  height: 30vw;
+}
+
+.altenateimagecontainer img.top {
+  display:block;
+  top: 0;
+  -webkit-animation: anim 11s infinite alternate;
+  animation: anim 11s infinite alternate;
+  z-index: 2;
+  overflow: hidden;
+  height: 30vw;
+}
+
+@media only screen and (max-width: 870px) {
+  .altenateimagecontainer img.bottom {
+    top: -261px;
+    height: 261px;
+    width: 406px;
+  }
+  .altenateimagecontainer img.top {
+    height: 261px;
+    width: 406px;
+  }
+  .altenateimagecontainer div {
+    width: 406px;
+    max-height: 30vh;
+  }
+}
+
+@-webkit-keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  36.36% {
+    opacity: 0;
+  }
+  63.63% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  36.36% {
+    opacity: 0;
+  }
+  63.63% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

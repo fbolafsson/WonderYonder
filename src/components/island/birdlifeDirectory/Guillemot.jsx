@@ -14,10 +14,10 @@ export default class Guillemot extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'Birdlife / Guillemot' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'Birds / Guillemot' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <h4>{ 'Guillemot (Svartfugl)' }</h4>
+          <h4>Guillemot (<em>Uria aalge</em>)</h4>
           <p>{ "Guillemots are seabirds, and they tend to congregate on the ledges of cliffs overlooking the ocean. The view is spectacular, but it's a pretty precarious place for a newly laid clutch of baby birds. Guillemots don't even build nests, and their breeding colonies are notoriously crowded." }</p>
           <p>{ "They're shaped in such a way that when they roll, they do so not in a long, wide arc but a tight, uniform circle." }</p>
         </div>

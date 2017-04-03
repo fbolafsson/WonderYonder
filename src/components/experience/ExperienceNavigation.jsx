@@ -21,12 +21,13 @@ export default class ExperienceNavigation extends PureComponent {
     return (
       <nav className={className}>
         <ul>
-          { /*
           <li>
-            <Link to="/experience?source=local"
-              activeClassName={defaultStyles.active}>{ 'The Journey' }</Link>
+            <Link to="/experience?source=local" activeClassName={defaultStyles.active}>{ 'The Journey' }</Link>
           </li>
-          */}
+          <li>
+            <Link to="/experience/huntinglodge?source=local" activeClassName={defaultStyles.active}>{ 'Hunting Lodge' }</Link>
+          </li>
+
         </ul>
       </nav>
     );

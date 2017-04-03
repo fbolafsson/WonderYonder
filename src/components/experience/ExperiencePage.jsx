@@ -16,7 +16,7 @@ export default class IslandPage extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'The Experience' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'The Journey' }</header>
         <ExperienceNavigation fadeIn={!isLocal}/>
         <div className={defaultStyles.pageSegment }>
           <p>{ 'Journey to the centre of the earth, where you resonate with the heartbeat of Mother Earth.  Where you feel as if your daily issues are left out at sea. Climbing the cliffs, step by step into the arms of Mother Nature. Where the home of “millions” of birds await you.' }</p>
@@ -24,7 +24,7 @@ export default class IslandPage extends PureComponent {
           <p>{ 'For your dream journey please contact us.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
-          <img src="http://i.imgur.com/qHqoVPz.jpg" />
+          <img src="http://i.imgur.com/te3QgFi.png" />
         </div>
       </div>
     );

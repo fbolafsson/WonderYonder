@@ -14,11 +14,11 @@ export default class GreatSkua extends PureComponent {
     return (
       <div className={ defaultStyles.pageContent }>
 
-        <header className={ defaultStyles.pageTitle }>{ 'Birdlife / Great Skua' }</header>
+        <header className={ defaultStyles.pageTitle }>{ 'Birds / Great Skua' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <h4>{ 'Great Skua (Skúmur)' }</h4>
-          <p>{ 'The Great skua is a vicous predator.  Mainly he eats fish, but he just eats what ever he can get.  One way of feeding is by chasing Gannets until they drop there food. Great skua also regularly kills and eat adut birds.  Such as puffins and gulls.  They defend there nest as few others can, they fly at the head of a human or other intruders approaching its nest.   Although it cannot inflict serious damage, such an experience with a bird of this size is frightening.  They dont get attimitated.' }</p>
+          <h4>Great Skua (<em>Stercorarius skua</em>)</h4>
+          <p>{ 'The great skua is an aggressive pirate of the seas, deliberately harrassing birds as large as gannets to steal a free meal. It grabs the wing tips of birds, for example Gannets, and tips them into the sea. It also readily kills and eats smaller birds such as puffins. Great skuas show little fear of humans - they fiercely defend the nest in the breeding season with relentless dives at intruders, including humans, sometimes making contact, anybody getting close to the nest will be repeatedly dive-bombed by the angry adult.  Although it cannot inflict serious damage, such an experience with a bird of this size is frightening. We can still relax in Elliðaey since their nesting site is luckily not on the island but In Iceland.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/bR8SCEm.jpg" />
