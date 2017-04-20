@@ -28,6 +28,9 @@ export default class IslandNavigation extends PureComponent {
             <Link to="/island/wildlife?source=local" activeClassName={defaultStyles.active}>{ 'Wildlife' }</Link>
           </li>
           <li>
+            <Link to="/island/killerwhale?source=local" activeClassName={defaultStyles.active}>{ 'Killer Whale' }</Link>
+          </li>
+          <li>
             <Link to="/island/birdlife?source=local" activeClassName={defaultStyles.active}>{ 'Birds' }</Link>
           </li>
         </ul>

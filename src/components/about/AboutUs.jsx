@@ -14,20 +14,8 @@ export default class AboutPage extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'About / Contact us' }</header>
         <AboutNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>{ "Don't contact us, we'll contact you! We are very proficient in contacting and connecting people. We search high and low for the perfect contact." }</p>
-          <br/>
           <p>
-            Undisclosed location 67
-            <br/>
-            North Atlantic Ocean
-            <br/>
-            Earth
-          </p>
-          <br/>
-          <p>
-            Pigeon: Lenny Birdsworth
-            <br/>
-            E-mail: <a href="mailto:blank@thisshouldnotbereal.mars" target="_blank">{"no@email.here"}</a>
+            For more information, please contact us: <a href="mailto:ellidaey@ellidaey.is" target="_blank">{"ellidaey@ellidaey.is"}</a>
           </p>
         </div>
         <div className={ defaultStyles.imageSegment }>

@@ -25,6 +25,7 @@ export default class Header extends PureComponent {
               <div className={headerStyles.dropdownContent}>
                 <IndexLink to="/island" activeClassName="active" >{ 'The Island' }</IndexLink>
                 <Link to="/island/wildlife" activeClassName="active" >{ 'Wildlife' }</Link>
+                <Link to="/island/killerwhale" activeClassName="active" >{ 'Killer Whale' }</Link>
                 <Link to="/island/birdlife" activeClassName="active" >{ 'Birds' }</Link>
               </div>
             </div>
