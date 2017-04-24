@@ -70,12 +70,30 @@ html, body {
   text-align: center;
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  };
+  to {
+    opacity: 1;
+  };
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
   };
   to {
     opacity: 1;
+  };
+}
+
+@-webkit-keyframes slideInNavigation {
+  from {
+    width: 0%;
+  };
+  to {
+    width: 13%;
   };
 }
 
@@ -88,6 +106,17 @@ html, body {
   };
 }
 
+@-webkit-keyframes slideInPage {
+  from {
+    width: 0%;
+    padding-right: 0%;
+  };
+  to {
+    width: 28%;
+    padding-right: 2%;
+  };
+}
+
 @keyframes slideInPage {
   from {
     width: 0%;
@@ -96,6 +125,17 @@ html, body {
   to {
     width: 28%;
     padding-right: 2%;
+  };
+}
+
+@-webkit-keyframes slideOut {
+  from {
+    width: 88%;
+    padding-left: 0%;
+  };
+  to {
+    width: 48%;
+    padding-left: 2%;
   };
 }
 
@@ -111,21 +151,30 @@ html, body {
 }
 
 .slideInNavigation {
-  animation-name: slideInNavigation;
-  animation-duration: 0.5s;
-  animation-timing-function: ease-out;
+  -webkit-animation-name: slideInNavigation;
+          animation-name: slideInNavigation;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 .slideInPage {
-  animation-name: slideInPage;
-  animation-duration: 0.5s;
-  animation-timing-function: ease-out;
+  -webkit-animation-name: slideInPage;
+          animation-name: slideInPage;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 .slideOut {
-  animation-name: slideOut;
-  animation-duration: 0.5s;
-  animation-timing-function: ease-out;
+  -webkit-animation-name: slideOut;
+          animation-name: slideOut;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
 }
 
 .pageSegment p {
@@ -143,9 +192,12 @@ html, body {
 }
 
 .fadeInNavigation {
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
 
 .navigationSegment ul {
@@ -184,9 +236,12 @@ html, body {
   font-size: 17px;
   line-height: 30px;
   padding-left: 4px;
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
   z-index: 1;
 }
 
@@ -214,9 +269,12 @@ html, body {
   top: 50%;
   position: relative;
   width: 100%;
-  animation-name: fadeIn;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
 }
 
 .pageContent {
@@ -250,19 +308,6 @@ html, body {
 }
 
 .homeContainer img {
-  top: -20vw;
   min-width: 1200px;
   max-width: 2400px;
-}
-
-@media only screen and (max-width: 1270px) {
-  .homeContainer img {
-    top: -10vw;
-  }
-}
-
-@media only screen and (min-width: 1670px) {
-  .homeContainer img {
-    top: -30vw;
-  }
 }

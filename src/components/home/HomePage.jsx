@@ -10,7 +10,7 @@ export default class HomePage extends PureComponent {
       <div className={ defaultStyles.pageContent }>
 
         <div className={ defaultStyles.homeContainer }>
-          <SlidingImage url={'http://i.imgur.com/49ucq8O.jpg'} />
+          <SlidingImage url={'http://i.imgur.com/YrM9u1D.jpg'} />
         </div>
       </div>
     );
