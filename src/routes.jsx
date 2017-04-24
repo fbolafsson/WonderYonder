@@ -7,7 +7,6 @@ import ExperiencePage from 'components/experience/ExperiencePage';
 import HuntingLodge from 'components/experience/HuntingLodge';
 import IslandPage from 'components/island/IslandPage';
 import Wildlife from 'components/island/Wildlife';
-import KillerWhale from 'components/island/KillerWhale';
 import Birdlife from 'components/island/Birdlife';
 import BlackGuillemot from 'components/island/birdlifeDirectory/BlackGuillemot';
 import Gannet from 'components/island/birdlifeDirectory/Gannet';
@@ -27,7 +26,6 @@ export default (
     <Route path="experience/huntinglodge" component={ HuntingLodge } />
     <Route path="island" component={ IslandPage } />
     <Route path="island/wildlife" component={ Wildlife } />
-    <Route path="island/killerwhale" component={ KillerWhale } />
     <Route path="island/birdlife" component={ Birdlife } />
     <Route path="island/birdlife/blackguillemot" component={ BlackGuillemot } />
     <Route path="island/birdlife/gannet" component={ Gannet } />

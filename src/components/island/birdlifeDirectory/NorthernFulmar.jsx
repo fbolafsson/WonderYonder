@@ -17,8 +17,7 @@ export default class NorthernFulmar extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'Birds / Northern Fulmar' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <h4>Northern Fulmar (<em>Fulmarus glacialis</em>)</h4>
-          <p>{ "A gull-like relative of albatrosses and shearwaters, the Northern Fulmar is a bird of the northern oceans. It breeds in few dozen scattered locations off Alaska and Canada,  but is more abundant and widespread elsewhere in the northern hemisphere, especially in the northeast Atlantic." }</p>
+          <p>A gull-like relative of albatrosses and shearwaters, the Northern Fulmar (<em>Fulmarus glacialis</em>) is a bird of the northern oceans. It breeds in few dozen scattered locations off Alaska and Canada,  but is more abundant and widespread elsewhere in the northern hemisphere, especially in the northeast Atlantic.</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/3AtM0Oy.jpg" />

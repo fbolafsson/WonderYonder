@@ -19,7 +19,7 @@ export default class AboutPage extends PureComponent {
           </p>
         </div>
         <div className={ defaultStyles.imageSegment }>
-          <img src="http://i.imgur.com/XNTDHjX.jpg" />
+          <img src="http://i.imgur.com/hOsJlMg.jpg" />
         </div>
       </div>
     );

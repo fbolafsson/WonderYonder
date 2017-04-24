@@ -17,8 +17,7 @@ export default class Puffin extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'Birds / Puffin' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <h4>Puffin (<em>Fratercula arctica</em>)</h4>
-          <p>{ 'Most common amoung birds on Elliðaey.  More puffins live on Elliðaey than people in Manhattan.  Puffin breed in crevices among rocks or in burrows in the soil.  They feed by diving in the sea.' }</p>
+          <p>Most common amoung birds on Elliðaey.  More puffins (<em>Fratercula arctica</em>) live on Elliðaey than people in Manhattan.  Puffin breed in crevices among rocks or in burrows in the soil.  They feed by diving in the sea.</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/3xoO4Y9.jpg" />
