@@ -6,6 +6,7 @@ import SlidingImage from 'components/common/SlidingImage';
 
 export default class HomePage extends PureComponent {
   render() {
+    console.log("slurp");
     return (
       <div className={ defaultStyles.pageContent }>
 

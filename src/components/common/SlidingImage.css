@@ -46,7 +46,7 @@
 .sliding_image {
   position: absolute;
   right: -20%;
-  bottom: 0;
+  bottom: -20%;
   display: block;
   -webkit-animation: translate 28s ease-in-out;
           animation: translate 28s ease-in-out;
@@ -54,4 +54,10 @@
   z-index: 1;
   width: 160%;
   min-height: 1000px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .sliding_image {
+    bottom: -30%;
+  }
 }

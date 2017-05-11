@@ -311,3 +311,68 @@ html, body {
   min-width: 1200px;
   max-width: 2400px;
 }
+
+/* COMPOSITE */
+.compositeContainer {
+  width: 85%;
+  float: left;
+  text-align: left;
+}
+
+.compositeSegment {
+  width: 100%;
+  float: left;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.compositePageSegment {
+  width: 33%;
+  padding-right: 2%;
+  float: left;
+  text-align: left;
+}
+
+.compositePageSegment p, .compositePageSegment h4 {
+  color: #888;
+  margin-top: 0;
+  font-size: 17px;
+  line-height: 30px;
+  padding-left: 4px;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  z-index: 1;
+}
+
+.compositePageSegment p {
+    padding-left: 4px;
+    font-family: mr-eaves-xl-modern;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.compositeImageSegment {
+  width: 63%;
+  padding-left: 2%;
+  max-height: 30vw;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.compositeImageSegment img {
+  top: 50%;
+  position: relative;
+  width: 100%;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
