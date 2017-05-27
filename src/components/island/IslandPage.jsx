@@ -17,7 +17,7 @@ export default class IslandPage extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Island' }</header>
         <IslandNavigation fadeIn={!isLocal}/>
         <div className={defaultStyles.pageSegment }>
-          <p>{ 'The unique and beautiful island Elliðaey rises from the sea, with it´s steep cliffs and grassy hills. A nature conservation island situated in the south of Iceland in an archipelago called  Westman Islands.' }</p>
+          <p>{ 'Elliðaey rises steeply from the Atlantic Ocean, with vertical cliffs giving way to lush hills further inland. The island is a nature conservation area, situated south of the Icelandic mainland. It forms part of an archipelago called Westman Islands. Elliðaey is believed to have formed in a volcanic eruption about 5-6000 years ago. The volcano that formed it is now extinct, and the island sits tranquil in the middle of the ocean, albeit face-to- face with active volcano Eyjafjallajökull, on Iceland’s southern shore. We cordially invite you to experience the unique tranquility of Elliðaey.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/49ucq8O.jpg" />

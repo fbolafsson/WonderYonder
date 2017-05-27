@@ -19,9 +19,7 @@ export default class IslandPage extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'The Journey' }</header>
         <ExperienceNavigation fadeIn={!isLocal}/>
         <div className={defaultStyles.pageSegment }>
-          <p>{ 'Journey to the centre of the earth, where you resonate with the heartbeat of Mother Earth.  Where you feel as if your daily issues are left out at sea. Climbing the cliffs, step by step into the arms of Mother Nature. Where the home of “millions” of birds await you.' }</p>
-          <p>{ 'Whether it be a smaller group or intimate few each journey is tailormade and totally unique. Only a few trips are available each summer.' }</p>
-          <p>{ 'For your dream journey please contact us.' }</p>
+          <p>{ 'Your journey starts in Westman Islands where you sail off to Elliðaey. That is where we greet you and assist you in climbing the cliffs, step by step into the arms of Mother Nature, where the home of thousands of birds await you. At the hunting lodge a chef prepares a lunch with ingredients foraged from around Elliðaey. With the whole day ahead you start your journey exploring the island. Each journey is totally unique and tailored to the specific needs of small groups, families or couples, which have exclusive use of the hunting lodge. Only a few trips are available each summer.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/te3QgFi.png" />

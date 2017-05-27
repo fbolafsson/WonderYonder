@@ -17,7 +17,7 @@ export default class NorthernFulmar extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'Birds / Northern Fulmar' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>A gull-like relative of albatrosses and shearwaters, the Northern Fulmar (<em>Fulmarus glacialis</em>) is a bird of the northern oceans. It breeds in few dozen scattered locations off Alaska and Canada,  but is more abundant and widespread elsewhere in the northern hemisphere, especially in the northeast Atlantic.</p>
+          <p>{ 'The northern fulmar, a gull-like relative of albatrosses and shearwaters, is a bird of the northern oceans, especially the northeast Atlantic. Both adult and young can defend against intruders by spitting foul-smelling oil. It forages by seizing items at or just below surface of water while swimming. It also plunges into water to catch fish. The northern fulmar breeds in colonies. Unlike many related birds, fulmars are active around nesting colonies in daylight.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/3AtM0Oy.jpg" />

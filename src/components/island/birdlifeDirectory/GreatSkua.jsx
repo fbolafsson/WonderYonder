@@ -17,7 +17,9 @@ export default class GreatSkua extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'Birds / Great Skua' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>The great skua (<em>Stercorarius skua</em>) is an aggressive pirate of the seas, deliberately harrassing birds as large as gannets to steal a free meal. It grabs the wing tips of birds, for example Gannets, and tips them into the sea. It also readily kills and eats smaller birds such as puffins. Great skuas show little fear of humans - they fiercely defend the nest in the breeding season with relentless dives at intruders, including humans, sometimes making contact, anybody getting close to the nest will be repeatedly dive-bombed by the angry adult.  Although it cannot inflict serious damage, such an experience with a bird of this size is frightening. We can still relax in Elliðaey since their nesting site is luckily not on the island but In Iceland.</p>
+
+          <p> { 'The great skua is an aggressive pirate of the seas, deliberately harassing birds as large as gannets to steal a free meal. It also kills and eats smaller birds such as puffins. Great skuas show little fear of humans. During breeding seasons, they fiercely defend their nest from any and all intruders, including humans. Although the great skua cannot inflict serious damage, this can make for a less than pleasant experience. We can still relax in Elliðaey, since their nesting area is not on the island but on the coast of Iceland.' }</p>
+          
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/bR8SCEm.jpg" />

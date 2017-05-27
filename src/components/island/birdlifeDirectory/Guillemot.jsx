@@ -17,8 +17,7 @@ export default class Guillemot extends PureComponent {
         <header className={ defaultStyles.pageTitle }>{ 'Birds / Guillemot' }</header>
         <BirdlifeNavigation fadeIn={!isLocal}/>
         <div className={ defaultStyles.pageSegment }>
-          <p>Guillemots (<em>Uria aalge</em>) are seabirds, and they tend to congregate on the ledges of cliffs overlooking the ocean. The view is spectacular, but it's a pretty precarious place for a newly laid clutch of baby birds. Guillemots don't even build nests, and their breeding colonies are notoriously crowded.</p>
-          <p>{ "They're shaped in such a way that when they roll, they do so not in a long, wide arc but a tight, uniform circle." }</p>
+          <p>{ "Guillemots are seabirds, and they tend to congregate on the ledges of cliffs overlooking the ocean. Their breeding colonies are notoriously crowded. The view is spectacular, but it's a pretty precarious place for a newly laid clutch of baby birds. Guillemots lay only one egg and don’t even build nests. The chicks are capable of diving as soon as they hit the water about 20 days after hatching." }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
           <img src="http://i.imgur.com/8nXbUC5.png" />
