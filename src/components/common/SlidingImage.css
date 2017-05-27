@@ -48,9 +48,9 @@
   right: -20%;
   bottom: -20%;
   display: block;
-  -webkit-animation: translate 28s ease-in-out;
-          animation: translate 28s ease-in-out;
-  /*animation-timing-function: ease-in-out;*/
+  -webkit-animation: translate 28s linear;
+          animation: translate 28s linear;
+  /*animation-timing-function: linear;*/
   z-index: 1;
   width: 160%;
   min-height: 1000px;

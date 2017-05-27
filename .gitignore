@@ -3,3 +3,4 @@ dist/
 npm-debug*
 coverage
 yarn*
+**.DS_Store
