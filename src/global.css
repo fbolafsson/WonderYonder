@@ -312,6 +312,56 @@ html, body {
   max-width: 2400px;
 }
 
+.playVideoText {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.playVideoText:hover {
+  color: #6c6c6c;
+  cursor: pointer;
+}
+
+.videoContainer {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.vimeoVideo {
+  width: 1920px;
+  height: 1080px;
+  max-width: 90%;
+  max-height: 90%;
+  border: 0;
+  margin: auto;
+}
+
+.closeVideoModalButton {
+  color: white;
+  margin: auto;
+  cursor: pointer;
+  text-align: right;
+  width: 90%;
+}
+
+.closeVideoModalButton:hover {
+  color: #cecece;
+}
+
 /* COMPOSITE */
 .compositeContainer {
   width: 85%;
