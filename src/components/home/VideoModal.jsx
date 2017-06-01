@@ -19,8 +19,10 @@ export default class VideoModal extends PureComponent {
     if (this.props.showModal) {
       return (
           <div className={ defaultStyles.videoContainer }>
-            <span className={ defaultStyles.closeVideoModalButton } onClick={ this.closeVideoModal }>[ close ]</span>
-            <iframe className={ defaultStyles.vimeoVideo } src="https://player.vimeo.com/video/219104754?autoplay=0" frameBorder="0" allowFullScreen></iframe>
+            <div>
+              <span className={ defaultStyles.closeVideoModalButton } onClick={ this.closeVideoModal }>[ close ]</span>
+              <iframe className={ defaultStyles.vimeoVideo } src="https://player.vimeo.com/video/219104754?autoplay=0" frameBorder="0" allowFullScreen></iframe>
+            </div>
           </div>
       );
     } else {
