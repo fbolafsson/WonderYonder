@@ -46,14 +46,14 @@
 .sliding_image {
   position: absolute;
   right: -20%;
-  bottom: -20%;
+  bottom: -15%;
   display: block;
   -webkit-animation: translate 28s linear;
           animation: translate 28s linear;
   /*animation-timing-function: linear;*/
   z-index: 1;
   width: 160%;
-  min-height: 1000px;
+  min-height: 1200px;
 }
 
 @media only screen and (min-width: 1200px) {
