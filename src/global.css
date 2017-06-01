@@ -408,6 +408,7 @@ html, body {
 .compositeImageSegment {
   width: 63%;
   padding-left: 2%;
+  padding-top: 4px;
   max-height: 30vw;
   float: left;
   text-align: left;
@@ -425,4 +426,8 @@ html, body {
           animation-duration: 0.5s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+}
+
+img.imageOfSigurjon {
+  top: -76px;
 }

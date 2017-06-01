@@ -39,7 +39,7 @@ export default class AboutPage extends PureComponent {
               <p>{ "Sigurjón was raised in the Westman islands. He has dedicated himself to showing visitors the greatest attractions and the unique nature of his home. He is very knowledgeable about the history of the islands. Sigurjón is a highly motivated and dedicated certified special tour operator with seven years of experience in the tourism industry. He has a passionate approach to customer satisfaction, the desire to work with pride and enthusiasm that has resulted in delivering exceptionally high service standards." }</p>
             </div>
             <div className={ defaultStyles.compositeImageSegment }>
-                {/* TODO: Insert picture of Sigurjón here <img src={""} alt="Image missing"></img>*/}
+              <img className={ defaultStyles.imageOfSigurjon } src={"http://i.imgur.com/E7bR30W.jpg"}></img>
             </div>
           </div>
         </div>
