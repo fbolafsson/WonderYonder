@@ -22,7 +22,7 @@ export default class IslandPage extends PureComponent {
           <p>{ 'Your journey starts in Westman Islands where you sail off to Elliðaey. That is where we greet you and assist you in climbing the cliffs, step by step into the arms of Mother Nature, where the home of thousands of birds await you. At the hunting lodge a chef prepares a lunch with ingredients foraged from around Elliðaey. With the whole day ahead you start your journey exploring the island. Each journey is totally unique and tailored to the specific needs of small groups, families or couples, which have exclusive use of the hunting lodge. Only a few trips are available each summer.' }</p>
         </div>
         <div className={ defaultStyles.imageSegment }>
-          <img src="http://i.imgur.com/te3QgFi.png" />
+          <img src="http://i.imgur.com/REFbQ67.jpg" />
         </div>
       </div>
     );
