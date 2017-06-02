@@ -436,3 +436,7 @@ html, body {
 img.imageOfSigurjon {
   top: -76px;
 }
+
+.staffName {
+  margin-bottom: 4px;
+}
